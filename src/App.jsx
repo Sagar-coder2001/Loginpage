@@ -1,13 +1,13 @@
 
 import './App.css'
-import Login from './Components/Login/Login'
+import RegisterQrCode from './Components/RegisterQrCode'
 
 function App() {
   return (
     <>
     <div>
       <div className="app-container">
-      <Login/>
+      <RegisterQrCode/>
       </div>
     </div>
       

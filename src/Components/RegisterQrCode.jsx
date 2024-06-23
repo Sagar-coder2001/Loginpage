@@ -1,9 +1,10 @@
+
 import React, { useRef, useState } from 'react'
-import './Login.css'
+import './RegisterQrCode.css'
 import QRCode from 'qrcode.react'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faWhatsapp, faTwitter, faFacebook } from '@fortawesome/free-brands-icons';
-const Login = () => {
+const RegisterQrCode = () => {
     const [userdetails, setuserdetails] = useState({
         username: '',
         mobile: ''
@@ -92,7 +93,7 @@ const Login = () => {
                     {
                         !submited ? (
                             <form action="" onSubmit={saveDetails}>
-                                <h2>Login</h2>
+                                <h2>Register</h2>
                                 <div className="input-container">
                                     <input
                                         type="text"
@@ -141,4 +142,4 @@ const Login = () => {
         </>
     )
 }
-export default Login
+export default RegisterQrCode
